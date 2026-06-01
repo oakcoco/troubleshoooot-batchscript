@@ -1,2 +1,4 @@
-# netoworking-batchscript
-This tool is used for troubleshooting network problems within the windows operating system. Works only in windows 10 and 11.
+# troubleshooting batch scripts
+This repository contains .bat files that is useful for troubleshooting in windows operating system. In able to use the tools, download the .bat files and run it on your computer. It will automatically display options to execute commands within.
+
+Feedbacks are highly appreciated :).

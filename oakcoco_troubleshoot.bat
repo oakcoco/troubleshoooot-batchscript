@@ -33,10 +33,10 @@ echo  [17] Check Storage Health X wmic diskdrive get model,status X
 echo  [18] List Disk 
 echo  [19] List Volume Labels
 echo  [20] Display Volume Information
-echo  [21] Defragmentation
+echo  [21] 
 echo  [22] Storage Sense and Cleanup (cleanmgr)
-echo  [23] Defragmentation
-echo  [24] Defragmentation
+echo  [23] 
+echo  [24] 
 echo.
 echo =====================================
 echo       POWER AND BATTERY REPORTS
@@ -48,6 +48,51 @@ echo  [27] Stanby Report X powercfg /sleepstudy X
 echo  [28] System Power Report X powercfg /systempowerreport X
 echo  [29] Power Plans X powercfg /list X
 echo  [30] Energy Efficiency X powercfg /energy X
+echo.
+echo =====================================
+echo       USER ADMINISTRATION COMMANDS
+echo =====================================
+echo. 
+echo  [25] Restart the System
+echo  [26] Shutdown the System
+echo  [27] Cancel a scheduled shutdown
+echo  [28] Show file association 
+echo  [29] List of installed drivers
+echo.
+echo =====================================
+echo       Programming Related
+echo =====================================
+echo. 
+echo  [25] Python Version
+echo  [26] Git Version
+echo  [27] Java Version
+echo  [28] Locate GCC  
+echo  [29] Locate Node.js
+echo  [29] Locate VScode
+echo.
+echo =====================================
+echo       Directory Size
+echo =====================================
+echo. 
+echo  [25] Python Version
+echo  [26] Git Version
+echo  [27] Java Version
+echo  [28] Locate GCC  
+echo  [29] Locate Node.js
+echo  [29] Locate VScode
+echo.
+echo =====================================
+echo       Directory Size
+echo =====================================
+echo. 
+echo  [25] Python Version
+echo  [26] Git Version
+echo  [27] Java Version
+echo  [28] Locate GCC  
+echo  [29] Locate Node.js
+echo  [29] Locate VScode 
+
+
 
 
 

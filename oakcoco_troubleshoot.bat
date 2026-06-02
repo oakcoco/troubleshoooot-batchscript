@@ -1,11 +1,11 @@
 @echo off
-title Advanced Windows Network Toolkit
+title Windows Toolkit by oakcoco
 color 0A
 
 :menu
 cls
 echo =====================================
-echo    ADVANCED NETWORK TOOLKIT
+echo            NETWORK TOOLKIT
 echo =====================================
 echo.
 echo  [1]  Show Full IP Configuration
@@ -21,6 +21,36 @@ echo  [10] Open Device Manager
 echo  [11] Open Network Troubleshooter
 echo  [12] Speed Test Ping (Continuous)
 echo  [13] Restart Explorer
+echo.
+echo =====================================
+echo             DISK CHECKUP
+echo =====================================
+echo. 
+echo  [14] Check Disk
+echo  [15] Sfc /scannow
+echo  [16] Deployment Image Servicing and Management
+echo  [17] Check Storage Health X wmic diskdrive get model,status X
+echo  [18] List Disk 
+echo  [19] List Volume Labels
+echo  [20] Display Volume Information
+echo  [21] Defragmentation
+echo  [22] Storage Sense and Cleanup (cleanmgr)
+echo  [23] Defragmentation
+echo  [24] Defragmentation
+echo.
+echo =====================================
+echo       POWER AND BATTERY REPORTS
+echo =====================================
+echo. 
+echo  [25] Battery Report X powercfg /batteryreport X
+echo  [26] Energy Efficiency X powercfg /energy X
+echo  [27] Stanby Report X powercfg /sleepstudy X
+echo  [28] System Power Report X powercfg /systempowerreport X
+echo  [29] Power Plans X powercfg /list X
+echo  [30] Energy Efficiency X powercfg /energy X
+
+
+
 echo  [14] Exit
 echo.
 set /p choice=Enter Option: 

@@ -71,15 +71,25 @@ echo  [29] Locate Node.js
 echo  [29] Locate VScode
 echo.
 echo =====================================
-echo       Directory Size
+echo       Memory Diagnosnics
 echo =====================================
 echo. 
-echo  [25] Python Version
-echo  [26] Git Version
-echo  [27] Java Version
-echo  [28] Locate GCC  
-echo  [29] Locate Node.js
-echo  [29] Locate VScode
+echo  [25] View RAM Status
+echo  [29] Windows Memory Diagnosnics
+echo  [26] Full System Memory Info
+echo  [27] Open Resource Monitor
+echo  [28] Open Task Manager
+echo  [29] Clear Clipboard Memory
+echo  [29] Restart Windows Explorer
+echo  [29] Close Frozen Apps
+echo  [29] Open Startup Folder
+echo  [29] RAM Usage Monitor
+echo  [29] Clear Standby RAM Cache
+echo  [29] Empty Temporary Files
+echo  [29] Kill Heavy Backgound Task
+echo  [29] Open Advance System Settings
+echo  [29] Open Performance Options     
+echo  [29] Full RAM Optimization Mode 
 echo.
 echo =====================================
 echo       Directory Size
@@ -96,7 +106,7 @@ echo  [29] Locate VScode
 
 
 
-echo  [14] Exit
+echo  [1] Exit
 echo.
 set /p choice=Enter Option: 
 
